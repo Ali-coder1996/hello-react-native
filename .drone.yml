@@ -3,12 +3,7 @@ type: docker
 name: greeting
 
 steps:
-- name: en
-  image: alpine
+- name: Install dependanice 
+  image: node
   commands:
-  - echo hello world
-
-- name: fr
-  image: alpine
-  commands:
-  - echo bonjour monde
+  - npm install
