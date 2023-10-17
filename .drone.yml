@@ -4,6 +4,6 @@ name: greeting
 
 steps:
 - name: Install dependanice 
-  image: node
+  image: node:10.12.0-slim
   commands:
   - npm install
